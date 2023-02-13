@@ -1,0 +1,63 @@
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
+
+header{
+      background-image:url(../assets/hockey_1.jpg);
+      background-image: no-repeat;
+      background-size: cover;
+      height:37.3vh;
+}
+h1{
+      font-size: 4rem;
+      text-align: center;
+      padding-top: 13vh;
+      color: rgb(14, 180, 192);
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+img{
+       width:10vw;
+       position:absolute;
+       top:32vh;
+       right:10vw;
+}
+
+h2{
+       height: 6vh;
+       background-color: black;
+       color: white;
+       text-align: center;
+       padding-top: 1vh;
+       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+main{
+      display: inline-block;
+      
+}
+div{
+      
+      width: 100vw;
+}
+aside{
+      width: 20vw;
+      display: inline-block;
+      
+}
+section{
+        display: inline-block;
+        width: 75vw;
+        
+}
+article{
+        padding-top: 5vh;
+}
+a{
+      display: block;
+      padding:4vh;
+}
+.last{
+      padding-bottom: 7vh;
+}
