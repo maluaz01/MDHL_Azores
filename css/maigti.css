@@ -1,36 +1,32 @@
 *{
       margin: auto;
-      padding: 0;
+      
       box-sizing: border-box;
 }
-
+body{
+      background-color: lavenderblush;
+}
 header{
-      background-image: url(../assets/design1_image1.jpg);
-      height:37.3vh;
-      width: 100vw;
+      display: flex;
+      flex-direction: row;
+      background-image: url(../assets/Logo_Mighty_ducks-01.jpg);
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-color: powderblue;
+      height:20.3vh;
+      width: auto;
+     
 }
 h1{
-      font-size: 4rem;
+      font-size: 3rem;
       text-align: center;
-      padding-top: 13vh;
+      padding-bottom: 4vh;
       color: rgb(14, 180, 192);
       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-      
-}
-
-img{
-       width:10vw;
-       position:absolute;
-       top:32vh;
-       right:10vw;
-}
-.fig-encabezado{
-       width: 30vw;
-}
+      }
 
 h2{
-       height: 6vh;
-       width: 100vw;
+       height: 6vh;       
        background-color: black;
        color: white;
        text-align: center;
@@ -38,24 +34,24 @@ h2{
        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-main{
-      display: inline-block;
-      width: 100vw;
-}
-div{
-      
-      width: 100vw;
+.divo{
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: center;
+      margin: auto;
 }
 aside{
       width: 15vw;
       display: inline-block;
+      padding-top: 0;
+      margin-top: 0;
       
 }
 section{
         
         display: inline-block;
         width: 70vw;
-        
 }
 article{
         padding-top: 5vh;
@@ -64,18 +60,32 @@ a{
       display: block;
       padding:4vh;
 }
-.last{
-      padding-bottom: 7vh;
+.ultimo{
+      display:inline;
+      padding:0;
 }
-ul>li{
-      list-style-type: circle;
+.hache2{
+      display: none;
+}
+ul{
       display: flex;
       flex-direction: column;
-      justify-items: center;
+      justify-content: center;
+}
+ul li{
+      list-style-type: circle ;
+      display: flex;
+      flex-direction: column;
+     
+}
+table{
+      margin:auto;
+      padding: 0;
 }
 td, th{
       padding:1vw;
 }
+
 .ihf{
       text-align: center;
       padding:1vh 0;
@@ -85,4 +95,38 @@ td, th{
 }
 .imagenes figure img{
       width:18vw;
+}
+.last{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+}
+.ultimo-parrafo{
+      padding:0 2vw;
+      
+}
+.please{
+      display: inline;
+      padding:0;
+}
+dl{
+      margin: 0;
+      padding: 0;
+}
+dd{
+      padding-left: 2vw;
+}
+dt{
+      font-weight: bold;
+      padding:1vh 0;
+}
+.imagenes{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-items: stretch;
+}
+.imagenes figure{
+      width: 25vw;
+      flex-wrap: nowrap;
 }
