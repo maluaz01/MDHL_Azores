@@ -140,6 +140,7 @@ dt{
 }
 .fondoblanco{
       background-color: white;
+      margin:1vw;
 }
 
 .nom-ap, .cityzip, .birthgen,.unoydos, .pos12, .unif12{
