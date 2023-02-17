@@ -1,0 +1,192 @@
+*{
+      margin: auto;
+      
+      box-sizing: border-box;
+}
+body{
+      background-color: lavenderblush;
+}
+header{
+      display: flex;
+      flex-direction: row;
+      background-image: url(../assets/Logo_Mighty_ducks-01.jpg);
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-color: powderblue;
+      height:20.3vh;
+      width: auto;
+     
+}
+h1{
+      font-size: 3rem;
+      text-align: center;
+      padding-bottom: 4vh;
+      color: rgb(14, 180, 192);
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      }
+
+h2{
+       height: 6vh;       
+       background-color: black;
+       color: white;
+       text-align: center;
+       padding-top: 1vh;
+       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.divo{
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: center;
+      margin: auto;
+}
+aside{
+      width: 15vw;
+      display: inline-block;
+      padding-top: 0;
+      margin-top: 0;
+      
+}
+section{
+        
+        display: inline-block;
+        width: 70vw;
+}
+article{
+        padding-top: 5vh;
+}
+a{
+      display: block;
+      padding:4vh;
+}
+.ultimo{
+      display:inline;
+      padding:0;
+}
+.hache2{
+      display: none;
+}
+ul{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+}
+ul li{
+      list-style-type: circle ;
+      display: flex;
+      flex-direction: column;
+     
+}
+table{
+      margin:auto;
+      padding: 0;
+}
+td, th{
+      padding:1vw;
+}
+
+.ihf{
+      text-align: center;
+      padding:1vh 0;
+}
+.facility{
+      font-weight: bold;
+}
+.imagenes figure img{
+      width:18vw;
+}
+.last{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+}
+.ultimo-parrafo{
+      padding:0 2vw;
+      
+}
+.please{
+      display: inline;
+      padding:0;
+}
+dl{
+      margin: 0;
+      padding: 0;
+}
+dd{
+      padding-left: 2vw;
+}
+dt{
+      font-weight: bold;
+      padding:1vh 0;
+}
+.imagenes{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-items: stretch;
+}
+.imagenes figure{
+      width: 25vw;
+      flex-wrap: nowrap;
+}
+.h2-form{
+      background-color: white;
+      color: black; 
+      text-align: left;
+}
+.formu{
+      padding-top: 4vh;
+}
+.fondoblanco{
+      background-color: white;
+}
+
+.nom-ap, .cityzip, .birthgen,.unoydos, .pos12, .unif12{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+}
+
+#submito{
+      display: block;
+}
+.main-form{
+      padding-top: 8vh;
+}
+.nom-ap, .cityzip, .street, .birthgen, .grade{
+      padding: 1vh;
+}
+.gradito{
+      display: inline;
+      padding-right: 5vw;
+}
+.exponente{
+      vertical-align: super;
+      font-weight: bold;
+}
+.accesos{
+      display: flex;
+      padding:0 1vw;
+      background-color: lightgray;
+      justify-content: space-around;
+}
+.accesos>a{
+      display: inline;
+      
+}
+.locations{
+      width:auto;
+}
+.locations>div{
+      
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+}
+iframe{
+      padding:2vh;
+}
+footer{
+      height: 5vh;
+}
